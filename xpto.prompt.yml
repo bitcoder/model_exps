@@ -5,7 +5,7 @@ messages:
       concise summaries.
   - role: user
     content: 'The ticket content is: {{input}}'
-model: openai/gpt-4o
+model: openai/gpt-5-mini
 testData:
   - expected: ''
     input: >-
@@ -23,3 +23,4 @@ evaluators:
     uses: github/groundedness
   - name: Coherence
     uses: github/coherence
+responseFormat: text
