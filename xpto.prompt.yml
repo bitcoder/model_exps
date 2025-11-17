@@ -1,0 +1,16 @@
+messages:
+  - role: system
+    content: >-
+      You are a helpful assistant that summarizes support ticket responses into
+      concise summaries.
+  - role: user
+    content: >-
+      The app crashes every time I try to upload a PDF from my phone. It works
+      on desktop but not on mobile.
+model: openai/gpt-4o
+testData:
+  - expected: >-
+      The user experiences consistent app crashes when attempting to upload a
+      PDF from their phone. Uploading PDFs works normally on desktop. They
+      request an investigation into the issue.
+evaluators: []
