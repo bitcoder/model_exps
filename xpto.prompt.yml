@@ -5,7 +5,7 @@ messages:
       concise summaries.
   - role: user
     content: 'The ticket content is: {{input}}'
-model: openai/gpt-5-mini
+model: meta/meta-llama-3.1-405b-instruct
 testData:
   - expected: ''
     input: >-
