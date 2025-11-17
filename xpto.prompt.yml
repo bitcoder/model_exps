@@ -7,13 +7,13 @@ messages:
     content: 'The ticket content is: {{input}}'
 model: openai/gpt-4o
 testData:
-  - expected: x
+  - expected: ''
     input: >-
       The user experiences consistent app crashes when attempting to upload a
       PDF from their phone. Uploading PDFs works normally on desktop. They
       request an investigation into the issue.
   - input: Please add dark mode as it is very hard to read at night.
-    expected: x
+    expected: ''
 evaluators:
   - name: Similarity
     uses: github/similarity
