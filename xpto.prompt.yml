@@ -9,6 +9,7 @@ testData:
       The user experiences consistent app crashes when attempting to upload a
       PDF from their phone. Uploading PDFs works normally on desktop. They
       request an investigation into the issue.
+  - {}
 evaluators:
   - name: Similarity
     uses: github/similarity
